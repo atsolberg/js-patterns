@@ -1,5 +1,5 @@
 /** 
-  * The module pattern  uses a closure for private data encapsulation
+  * The module pattern uses a closure for private data encapsulation
   * and a returned object to expose a public api.
   */
 
