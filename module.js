@@ -12,6 +12,7 @@ var AreaUtils = AreaUtils || (function() {
     var module = {};
 
     // PRIVATE DATA
+    
     var _pi = Math.PI;
 
     var _round = function (value) {
