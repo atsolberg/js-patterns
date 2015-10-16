@@ -15,7 +15,7 @@ var AreaUtils = AreaUtils || (function() {
     var _pi = Math.PI;
 
     var _round = function (value) {
-        return +(Math.round(value + "e+2")  + "e-2");
+        return +(Math.round(value + 'e+2')  + 'e-2');
     };
 
     // PUBLIC API
