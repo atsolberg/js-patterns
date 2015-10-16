@@ -1,6 +1,7 @@
 /** 
   * The module pattern uses a closure for private data encapsulation
   * and a returned object to expose a public api.
+  * http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript
   */
 
 var AreaUtils = AreaUtils || (function() {
@@ -50,4 +51,4 @@ AreaUtils.triangle(10, 5); // 25
 // Hidden
 AreaUtils.module; // undefined
 AreaUtils._pi; // undefined
-AreaUtils._function; // undefined
+AreaUtils._round; // undefined
