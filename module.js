@@ -12,7 +12,7 @@ var AreaUtils = AreaUtils || (function() {
     var module = {};
 
     // PRIVATE DATA
-    
+
     var _pi = Math.PI;
 
     var _round = function (value) {
@@ -48,5 +48,6 @@ AreaUtils.circle(42); // 5541.77
 AreaUtils.triangle(10, 5); // 25
 
 // Hidden
+AreaUtils.module; // undefined
 AreaUtils._pi; // undefined
 AreaUtils._function; // undefined
